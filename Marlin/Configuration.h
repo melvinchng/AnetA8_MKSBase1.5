@@ -262,7 +262,7 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 #define max_software_endstops true  //If true, axis won't move to coordinates greater than the defined lengths below.
 // Travel limits after homing
 #define X_MIN_POS -32
-#define Y_MIN_POS -31
+#define Y_MIN_POS -8
 #define Z_MIN_POS 0
 #define X_MAX_POS 252
 #define Y_MAX_POS 220
@@ -284,11 +284,11 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 //// MOVEMENT SETTINGS
 #define NUM_AXIS 4 // The axis order in all axis related arrays is X, Y, Z, E
 #define HOMING_FEEDRATE {50*60, 50*60, 4*60, 0}  // set the homing speeds (mm/min)
-
+ 
 // default settings
 
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {100,100,400,95}  // default steps per unit for Ultimaker
-#define DEFAULT_MAX_FEEDRATE          {400, 400, 8, 50}    // (mm/sec)
+#define DEFAULT_MAX_FEEDRATE          {400,400,8,50}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {2000,2000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          650    // X, Y, Z and E acceleration in mm/s^2 for printing moves
