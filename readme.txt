@@ -21,6 +21,11 @@ Hardware Modification Made:
 * Make sure that you plug in the display to the correct port
 ** Sample picture of the Anet A8 is included in the source folder (sample_1.jpg, sample_2.jpg)
 
+Check/Adjust your stepper driver current to .410 volts:
+1. See http://reprap.org/wiki/Calibration#Motor_Calibration
+2. See sample adjustment: https://youtu.be/GNfKZ7o_7PI
+ 
+
 Software Modification:
 1. Plug in the cable to Arduino IDE
 2. Select Arduino Mega 2560 Board
